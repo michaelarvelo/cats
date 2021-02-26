@@ -1,0 +1,7 @@
+<h2>{{cat.name}}</h2>
+<h3>{{cat.description}}</h3>
+<div  class='col-sm-12 text-center'>
+    <button (click)="getNextCat()" type="button" class="btn btn-primary btn-lg"> MEOW</button>
+    <br><br>
+    <img [src]=cat.image.url class="img-fluid" alt="cat"> <br> <br>
+  </div>
